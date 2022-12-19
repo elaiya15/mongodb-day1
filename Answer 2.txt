@@ -1,0 +1,61 @@
+
+QUESTION:
+
+2.Find the product price which are between 400 to 800
+
+ANSWER:
+
+db.product.find({product_price:{$gt:400,$lt:800}});
+
+
+RESULT:
+
+/* 1 createdAt:12/12/2022, 10:59:24 PM*/
+{
+	"_id" : ObjectId("639764f4bc1bbfad494cd4bf"),
+	"id" : "1",
+	"product_name" : "Intelligent Fresh Chips",
+	"product_price" : 655,
+	"product_material" : "Concrete",
+	"product_color" : "mint green"
+},
+
+/* 2 createdAt:12/12/2022, 10:59:24 PM*/
+{
+	"_id" : ObjectId("639764f4bc1bbfad494cd4c1"),
+	"id" : "3",
+	"product_name" : "Refined Steel Car",
+	"product_price" : 690,
+	"product_material" : "Rubber",
+	"product_color" : "gold"
+},
+
+/* 3 createdAt:12/12/2022, 10:59:24 PM*/
+{
+	"_id" : ObjectId("639764f4bc1bbfad494cd4c2"),
+	"id" : "4",
+	"product_name" : "Gorgeous Plastic Pants",
+	"product_price" : 492,
+	"product_material" : "Soft",
+	"product_color" : "plum"
+},
+
+/* 4 createdAt:12/12/2022, 10:59:24 PM*/
+{
+	"_id" : ObjectId("639764f4bc1bbfad494cd4c4"),
+	"id" : "6",
+	"product_name" : "Awesome Wooden Towels",
+	"product_price" : 474,
+	"product_material" : "Plastic",
+	"product_color" : "orange"
+},
+
+/* 5 createdAt:12/12/2022, 10:59:24 PM*/
+{
+	"_id" : ObjectId("639764f4bc1bbfad494cd4c5"),
+	"id" : "7",
+	"product_name" : "Practical Soft Shoes",
+	"product_price" : 500,
+	"product_material" : "Rubber",
+	"product_color" : "pink"
+}

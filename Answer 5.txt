@@ -1,0 +1,160 @@
+QUESTION:
+
+5.Find the product name and product material of each products
+
+ANSWER:
+
+db.product.find({},{product_name:1,product_material:1,_id:0});
+
+
+RESULT:
+
+/* 1 */
+{
+	"product_name" : "Intelligent Fresh Chips",
+	"product_material" : "Concrete"
+},
+
+/* 2 */
+{
+	"product_name" : "Practical Fresh Sausages",
+	"product_material" : "Cotton"
+},
+
+/* 3 */
+{
+	"product_name" : "Refined Steel Car",
+	"product_material" : "Rubber"
+},
+
+/* 4 */
+{
+	"product_name" : "Gorgeous Plastic Pants",
+	"product_material" : "Soft"
+},
+
+/* 5 */
+{
+	"product_name" : "Sleek Cotton Chair",
+	"product_material" : "Fresh"
+},
+
+/* 6 */
+{
+	"product_name" : "Awesome Wooden Towels",
+	"product_material" : "Plastic"
+},
+
+/* 7 */
+{
+	"product_name" : "Practical Soft Shoes",
+	"product_material" : "Rubber"
+},
+
+/* 8 */
+{
+	"product_name" : "Incredible Steel Hat",
+	"product_material" : "Rubber"
+},
+
+/* 9 */
+{
+	"product_name" : "Awesome Wooden Ball",
+	"product_material" : "Soft"
+},
+
+/* 10 */
+{
+	"product_name" : "Generic Wooden Pizza",
+	"product_material" : "Frozen"
+},
+
+/* 11 */
+{
+	"product_name" : "Unbranded Wooden Cheese",
+	"product_material" : "Soft"
+},
+
+/* 12 */
+{
+	"product_name" : "Unbranded Plastic Salad",
+	"product_material" : "Wooden"
+},
+
+/* 13 */
+{
+	"product_name" : "Gorgeous Cotton Keyboard",
+	"product_material" : "Concrete"
+},
+
+/* 14 */
+{
+	"product_name" : "Incredible Steel Shirt",
+	"product_material" : "Metal"
+},
+
+/* 15 */
+{
+	"product_name" : "Ergonomic Cotton Hat",
+	"product_material" : "Rubber"
+},
+
+/* 16 */
+{
+	"product_name" : "Small Soft Chair",
+	"product_material" : "Cotton"
+},
+
+/* 17 */
+{
+	"product_name" : "Incredible Metal Car",
+	"product_material" : "Fresh"
+},
+
+/* 18 */
+{
+	"product_name" : "Licensed Plastic Bacon",
+	"product_material" : "Steel"
+},
+
+/* 19 */
+{
+	"product_name" : "Intelligent Cotton Chips",
+	"product_material" : "Soft"
+},
+
+/* 20 */
+{
+	"product_name" : "Handcrafted Wooden Bacon",
+	"product_material" : "Concrete"
+},
+
+/* 21 */
+{
+	"product_name" : "Unbranded Granite Chicken",
+	"product_material" : "Metal"
+},
+
+/* 22 */
+{
+	"product_name" : "Ergonomic Soft Hat",
+	"product_material" : "Rubber"
+},
+
+/* 23 */
+{
+	"product_name" : "Intelligent Steel Pizza",
+	"product_material" : "Cotton"
+},
+
+/* 24 */
+{
+	"product_name" : "Tasty Rubber Cheese",
+	"product_material" : "Frozen"
+},
+
+/* 25 */
+{
+	"product_name" : "Licensed Steel Car",
+	"product_material" : "Cotton"
+}

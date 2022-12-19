@@ -1,0 +1,49 @@
+QUESTION:
+
+8.Find all products which contain the value of soft in product material
+
+ANSWER:
+db.product.find({"product_material" : "Soft"});
+
+
+RESULT:
+
+/* 1 createdAt:12/12/2022, 10:59:24 PM*/
+{
+	"_id" : ObjectId("639764f4bc1bbfad494cd4c2"),
+	"id" : "4",
+	"product_name" : "Gorgeous Plastic Pants",
+	"product_price" : 492,
+	"product_material" : "Soft",
+	"product_color" : "plum"
+},
+
+/* 2 createdAt:12/12/2022, 10:59:24 PM*/
+{
+	"_id" : ObjectId("639764f4bc1bbfad494cd4c7"),
+	"id" : "9",
+	"product_name" : "Awesome Wooden Ball",
+	"product_price" : 28,
+	"product_material" : "Soft",
+	"product_color" : "azure"
+},
+
+/* 3 createdAt:12/12/2022, 10:59:24 PM*/
+{
+	"_id" : ObjectId("639764f4bc1bbfad494cd4c9"),
+	"id" : "11",
+	"product_name" : "Unbranded Wooden Cheese",
+	"product_price" : 26,
+	"product_material" : "Soft",
+	"product_color" : "black"
+},
+
+/* 4 createdAt:12/12/2022, 10:59:24 PM*/
+{
+	"_id" : ObjectId("639764f4bc1bbfad494cd4d1"),
+	"id" : "19",
+	"product_name" : "Intelligent Cotton Chips",
+	"product_price" : 46,
+	"product_material" : "Soft",
+	"product_color" : "azure"
+}

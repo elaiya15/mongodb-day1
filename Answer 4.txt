@@ -1,0 +1,41 @@
+
+QUESTION:
+
+4.List the four product which are grater than 500 in price 
+
+ANSWER:
+
+db.product.find({product_price:{$gt:500}}).limit(4)
+
+
+RESULT:
+
+/* 1 createdAt:12/12/2022, 10:59:24 PM*/
+{
+	"_id" : ObjectId("639764f4bc1bbfad494cd4bf"),
+	"id" : "1",
+	"product_name" : "Intelligent Fresh Chips",
+	"product_price" : 655,
+	"product_material" : "Concrete",
+	"product_color" : "mint green"
+},
+
+/* 2 createdAt:12/12/2022, 10:59:24 PM*/
+{
+	"_id" : ObjectId("639764f4bc1bbfad494cd4c0"),
+	"id" : "2",
+	"product_name" : "Practical Fresh Sausages",
+	"product_price" : 911,
+	"product_material" : "Cotton",
+	"product_color" : "indigo"
+},
+
+/* 3 createdAt:12/12/2022, 10:59:24 PM*/
+{
+	"_id" : ObjectId("639764f4bc1bbfad494cd4c1"),
+	"id" : "3",
+	"product_name" : "Refined Steel Car",
+	"product_price" : 690,
+	"product_material" : "Rubber",
+	"product_color" : "gold"
+}

@@ -1,0 +1,25 @@
+QUESTION:
+
+9.Find products which contain product color indigo  and product price 492.00
+
+ANSWER:
+
+db.product.find({
+  "$and": [
+    {"product_color": "indigo"},
+    {"product_price": {$gte : 492}}
+  ]
+})
+
+
+
+
+RESULT:
+{
+	"_id" : ObjectId("639764f4bc1bbfad494cd4c0"),
+	"id" : "2",
+	"product_name" : "Practical Fresh Sausages",
+	"product_price" : 911,
+	"product_material" : "Cotton",
+	"product_color" : "indigo"
+}
